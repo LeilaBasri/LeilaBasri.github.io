@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    overflow-x: hidden;
+    line-height: 35px;
+}
+header{
+    width: 100%;
+    background-color: black;
+    padding: 0px 50px;
+    font-size: 20px;
+    position: fixed;
+    top: 0; 
+    z-index: 100px;
+    box-shadow: 0px 5px 10px 0 rgba(25, 24, 24, 0.5), 0px 5px 20px 0 rgba(11, 10, 10, 0.6); 
+}
+h2{
+    padding: 30px 0;
+}
+.headerLink{
+    float: left;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+.headerLink:hover{
+    background-color: #151515;
+}
+
+.align{
+    text-align: center;
+}
+
+.container{
+    padding: 50px;
+}
+
+.aboutMe{
+    padding: 50px;
+}
+
+.mySkills{
+    padding: 50px;
+}
+
+.myProject{
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    height: 400px;
+    background-color: #000000;
+    color: white;
+}
+.project{
+    width: 12%;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+}
+.active{
+    width: 25%;
+}
+.projectImg{
+    text-align: center;
+    width: 90%;
+    height: 90%;
+    background-color: #000000;
+    margin: auto;
+    background-size:cover;
+}
+.project.active{
+    width: 25%;
+    height: 330px;
+    margin: 0px;
+}
+.projectCaption{
+    display: none;
+}
+.active .projectCaption{
+    display: block;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+footer{
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+    padding: 20px 50px; 
+    color: white; 
+    box-shadow: 0px 5px 10px 0 rgba(25, 24, 24, 0.5), 0px 5px 20px 0 rgba(11, 10, 10, 0.6);    
+}
+footer nav{
+    width: 100%;
+    background-color: #000000;
+    align-items: center;
+}
+.footerLink{ 
+    color: white;
+    text-decoration: none;
+}
+.footerLink i{
+    margin: 20px;
+    font-size: 40px;
+}
